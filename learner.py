@@ -17,7 +17,7 @@ import pandas as pd
 # In[99]:
 
 
-df = pd.read_csv("cleaned.csv",encoding="utf-16")
+df = pd.read_csv("output/cleaned.csv",encoding="utf-16")
 
 
 # In[100]:
@@ -98,7 +98,7 @@ df = df.sort_values("difference")
 # In[111]:
 
 
-df.to_csv("predictions.csv",encoding="utf-16")
+df.to_csv("output/predictions.csv",encoding="utf-16")
 
 
 # In[ ]:

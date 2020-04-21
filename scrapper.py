@@ -205,10 +205,10 @@ df = pd.concat([names, addresses, locations0, locations1, locations2, ages, heig
 df.columns=['マンション名','住所','立地1','立地2','立地3','築年数','建物の高さ','階層','賃料料','管理費', '敷/礼/保証/敷引,償却','間取り','専有面積', '詳細URL']
 
 
-# In[13]:
+# In[1]:
 
 
-df.to_csv('suumo.csv', encoding='utf-16', header=True, index=False)
+df.to_csv('output/suumo.csv', encoding='utf-16', header=True, index=False)
 
 
 # In[ ]:
