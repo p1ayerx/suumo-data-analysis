@@ -77,7 +77,7 @@ python-jsonrpc-server==0.3.4
 python-language-server==0.31.10
 pytz==2019.3
 PyWavelets==1.1.1
-PyYAML==5.3.1
+PyYAML==5.4
 pyzmq==19.0.0
 requests==2.23.0
 ruamel-yaml==0.15.87
